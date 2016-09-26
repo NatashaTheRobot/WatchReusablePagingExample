@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA14F13F1D99723A00DA3537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14F13E1D99723A00DA3537 /* AppDelegate.swift */; };
+		FA14F1411D99723A00DA3537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14F1401D99723A00DA3537 /* ViewController.swift */; };
+		FA14F1441D99723A00DA3537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA14F1421D99723A00DA3537 /* Main.storyboard */; };
+		FA14F1461D99723A00DA3537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA14F1451D99723A00DA3537 /* Assets.xcassets */; };
+		FA14F1491D99723A00DA3537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA14F1471D99723A00DA3537 /* LaunchScreen.storyboard */; };
+		FA14F1541D99723A00DA3537 /* WatchReusablePagingExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14F1531D99723A00DA3537 /* WatchReusablePagingExampleTests.swift */; };
+		FA14F15F1D99723A00DA3537 /* WatchReusablePagingExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14F15E1D99723A00DA3537 /* WatchReusablePagingExampleUITests.swift */; };
+		FA14F1641D99723A00DA3537 /* WatchReusablePagingExample WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FA14F1631D99723A00DA3537 /* WatchReusablePagingExample WatchKit App.app */; };
+		FA14F16A1D99723A00DA3537 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA14F1681D99723A00DA3537 /* Interface.storyboard */; };
+		FA14F16C1D99723A00DA3537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA14F16B1D99723A00DA3537 /* Assets.xcassets */; };
+		FA14F1731D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA14F1721D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA14F1781D99723A00DA3537 /* FoodItemInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14F1771D99723A00DA3537 /* FoodItemInterfaceController.swift */; };
+		FA14F17A1D99723A00DA3537 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14F1791D99723A00DA3537 /* ExtensionDelegate.swift */; };
+		FA14F17C1D99723A00DA3537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA14F17B1D99723A00DA3537 /* Assets.xcassets */; };
+		FA14F1921D9974EC00DA3537 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14F1911D9974EC00DA3537 /* FoodItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA14F1501D99723A00DA3537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA14F1331D99723900DA3537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA14F13A1D99723A00DA3537;
+			remoteInfo = WatchReusablePagingExample;
+		};
+		FA14F15B1D99723A00DA3537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA14F1331D99723900DA3537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA14F13A1D99723A00DA3537;
+			remoteInfo = WatchReusablePagingExample;
+		};
+		FA14F1651D99723A00DA3537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA14F1331D99723900DA3537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA14F1621D99723A00DA3537;
+			remoteInfo = "WatchReusablePagingExample WatchKit App";
+		};
+		FA14F1741D99723A00DA3537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA14F1331D99723900DA3537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA14F1711D99723A00DA3537;
+			remoteInfo = "WatchReusablePagingExample WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA14F1831D99723A00DA3537 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA14F1731D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F1871D99723A00DA3537 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FA14F1641D99723A00DA3537 /* WatchReusablePagingExample WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA14F13B1D99723A00DA3537 /* WatchReusablePagingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchReusablePagingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA14F13E1D99723A00DA3537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA14F1401D99723A00DA3537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA14F1431D99723A00DA3537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA14F1451D99723A00DA3537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA14F1481D99723A00DA3537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA14F14A1D99723A00DA3537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA14F14F1D99723A00DA3537 /* WatchReusablePagingExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchReusablePagingExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA14F1531D99723A00DA3537 /* WatchReusablePagingExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchReusablePagingExampleTests.swift; sourceTree = "<group>"; };
+		FA14F1551D99723A00DA3537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA14F15A1D99723A00DA3537 /* WatchReusablePagingExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchReusablePagingExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA14F15E1D99723A00DA3537 /* WatchReusablePagingExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchReusablePagingExampleUITests.swift; sourceTree = "<group>"; };
+		FA14F1601D99723A00DA3537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA14F1631D99723A00DA3537 /* WatchReusablePagingExample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchReusablePagingExample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA14F1691D99723A00DA3537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FA14F16B1D99723A00DA3537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA14F16D1D99723A00DA3537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA14F1721D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchReusablePagingExample WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA14F1771D99723A00DA3537 /* FoodItemInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemInterfaceController.swift; sourceTree = "<group>"; };
+		FA14F1791D99723A00DA3537 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FA14F17B1D99723A00DA3537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA14F17D1D99723A00DA3537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA14F1911D9974EC00DA3537 /* FoodItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA14F1381D99723A00DA3537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F14C1D99723A00DA3537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F1571D99723A00DA3537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F16F1D99723A00DA3537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA14F1321D99723900DA3537 = {
+			isa = PBXGroup;
+			children = (
+				FA14F13D1D99723A00DA3537 /* WatchReusablePagingExample */,
+				FA14F1521D99723A00DA3537 /* WatchReusablePagingExampleTests */,
+				FA14F15D1D99723A00DA3537 /* WatchReusablePagingExampleUITests */,
+				FA14F1671D99723A00DA3537 /* WatchReusablePagingExample WatchKit App */,
+				FA14F1761D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension */,
+				FA14F13C1D99723A00DA3537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA14F13C1D99723A00DA3537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA14F13B1D99723A00DA3537 /* WatchReusablePagingExample.app */,
+				FA14F14F1D99723A00DA3537 /* WatchReusablePagingExampleTests.xctest */,
+				FA14F15A1D99723A00DA3537 /* WatchReusablePagingExampleUITests.xctest */,
+				FA14F1631D99723A00DA3537 /* WatchReusablePagingExample WatchKit App.app */,
+				FA14F1721D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA14F13D1D99723A00DA3537 /* WatchReusablePagingExample */ = {
+			isa = PBXGroup;
+			children = (
+				FA14F13E1D99723A00DA3537 /* AppDelegate.swift */,
+				FA14F1401D99723A00DA3537 /* ViewController.swift */,
+				FA14F1421D99723A00DA3537 /* Main.storyboard */,
+				FA14F1451D99723A00DA3537 /* Assets.xcassets */,
+				FA14F1471D99723A00DA3537 /* LaunchScreen.storyboard */,
+				FA14F14A1D99723A00DA3537 /* Info.plist */,
+			);
+			path = WatchReusablePagingExample;
+			sourceTree = "<group>";
+		};
+		FA14F1521D99723A00DA3537 /* WatchReusablePagingExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA14F1531D99723A00DA3537 /* WatchReusablePagingExampleTests.swift */,
+				FA14F1551D99723A00DA3537 /* Info.plist */,
+			);
+			path = WatchReusablePagingExampleTests;
+			sourceTree = "<group>";
+		};
+		FA14F15D1D99723A00DA3537 /* WatchReusablePagingExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA14F15E1D99723A00DA3537 /* WatchReusablePagingExampleUITests.swift */,
+				FA14F1601D99723A00DA3537 /* Info.plist */,
+			);
+			path = WatchReusablePagingExampleUITests;
+			sourceTree = "<group>";
+		};
+		FA14F1671D99723A00DA3537 /* WatchReusablePagingExample WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FA14F1681D99723A00DA3537 /* Interface.storyboard */,
+				FA14F16B1D99723A00DA3537 /* Assets.xcassets */,
+				FA14F16D1D99723A00DA3537 /* Info.plist */,
+			);
+			path = "WatchReusablePagingExample WatchKit App";
+			sourceTree = "<group>";
+		};
+		FA14F1761D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA14F1791D99723A00DA3537 /* ExtensionDelegate.swift */,
+				FA14F1771D99723A00DA3537 /* FoodItemInterfaceController.swift */,
+				FA14F1911D9974EC00DA3537 /* FoodItem.swift */,
+				FA14F17B1D99723A00DA3537 /* Assets.xcassets */,
+				FA14F17D1D99723A00DA3537 /* Info.plist */,
+			);
+			path = "WatchReusablePagingExample WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA14F13A1D99723A00DA3537 /* WatchReusablePagingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA14F1881D99723A00DA3537 /* Build configuration list for PBXNativeTarget "WatchReusablePagingExample" */;
+			buildPhases = (
+				FA14F1371D99723A00DA3537 /* Sources */,
+				FA14F1381D99723A00DA3537 /* Frameworks */,
+				FA14F1391D99723A00DA3537 /* Resources */,
+				FA14F1871D99723A00DA3537 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA14F1661D99723A00DA3537 /* PBXTargetDependency */,
+			);
+			name = WatchReusablePagingExample;
+			productName = WatchReusablePagingExample;
+			productReference = FA14F13B1D99723A00DA3537 /* WatchReusablePagingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA14F14E1D99723A00DA3537 /* WatchReusablePagingExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA14F18B1D99723A00DA3537 /* Build configuration list for PBXNativeTarget "WatchReusablePagingExampleTests" */;
+			buildPhases = (
+				FA14F14B1D99723A00DA3537 /* Sources */,
+				FA14F14C1D99723A00DA3537 /* Frameworks */,
+				FA14F14D1D99723A00DA3537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA14F1511D99723A00DA3537 /* PBXTargetDependency */,
+			);
+			name = WatchReusablePagingExampleTests;
+			productName = WatchReusablePagingExampleTests;
+			productReference = FA14F14F1D99723A00DA3537 /* WatchReusablePagingExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA14F1591D99723A00DA3537 /* WatchReusablePagingExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA14F18E1D99723A00DA3537 /* Build configuration list for PBXNativeTarget "WatchReusablePagingExampleUITests" */;
+			buildPhases = (
+				FA14F1561D99723A00DA3537 /* Sources */,
+				FA14F1571D99723A00DA3537 /* Frameworks */,
+				FA14F1581D99723A00DA3537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA14F15C1D99723A00DA3537 /* PBXTargetDependency */,
+			);
+			name = WatchReusablePagingExampleUITests;
+			productName = WatchReusablePagingExampleUITests;
+			productReference = FA14F15A1D99723A00DA3537 /* WatchReusablePagingExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FA14F1621D99723A00DA3537 /* WatchReusablePagingExample WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA14F1841D99723A00DA3537 /* Build configuration list for PBXNativeTarget "WatchReusablePagingExample WatchKit App" */;
+			buildPhases = (
+				FA14F1611D99723A00DA3537 /* Resources */,
+				FA14F1831D99723A00DA3537 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA14F1751D99723A00DA3537 /* PBXTargetDependency */,
+			);
+			name = "WatchReusablePagingExample WatchKit App";
+			productName = "WatchReusablePagingExample WatchKit App";
+			productReference = FA14F1631D99723A00DA3537 /* WatchReusablePagingExample WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FA14F1711D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA14F1801D99723A00DA3537 /* Build configuration list for PBXNativeTarget "WatchReusablePagingExample WatchKit Extension" */;
+			buildPhases = (
+				FA14F16E1D99723A00DA3537 /* Sources */,
+				FA14F16F1D99723A00DA3537 /* Frameworks */,
+				FA14F1701D99723A00DA3537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchReusablePagingExample WatchKit Extension";
+			productName = "WatchReusablePagingExample WatchKit Extension";
+			productReference = FA14F1721D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA14F1331D99723900DA3537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Natasha Murashev";
+				TargetAttributes = {
+					FA14F13A1D99723A00DA3537 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W6GNU64U6Q;
+						ProvisioningStyle = Automatic;
+					};
+					FA14F14E1D99723A00DA3537 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W6GNU64U6Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA14F13A1D99723A00DA3537;
+					};
+					FA14F1591D99723A00DA3537 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W6GNU64U6Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA14F13A1D99723A00DA3537;
+					};
+					FA14F1621D99723A00DA3537 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W6GNU64U6Q;
+						ProvisioningStyle = Automatic;
+					};
+					FA14F1711D99723A00DA3537 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W6GNU64U6Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA14F1361D99723900DA3537 /* Build configuration list for PBXProject "WatchReusablePagingExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA14F1321D99723900DA3537;
+			productRefGroup = FA14F13C1D99723A00DA3537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA14F13A1D99723A00DA3537 /* WatchReusablePagingExample */,
+				FA14F14E1D99723A00DA3537 /* WatchReusablePagingExampleTests */,
+				FA14F1591D99723A00DA3537 /* WatchReusablePagingExampleUITests */,
+				FA14F1621D99723A00DA3537 /* WatchReusablePagingExample WatchKit App */,
+				FA14F1711D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA14F1391D99723A00DA3537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA14F1491D99723A00DA3537 /* LaunchScreen.storyboard in Resources */,
+				FA14F1461D99723A00DA3537 /* Assets.xcassets in Resources */,
+				FA14F1441D99723A00DA3537 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F14D1D99723A00DA3537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F1581D99723A00DA3537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F1611D99723A00DA3537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA14F16C1D99723A00DA3537 /* Assets.xcassets in Resources */,
+				FA14F16A1D99723A00DA3537 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F1701D99723A00DA3537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA14F17C1D99723A00DA3537 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA14F1371D99723A00DA3537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA14F1411D99723A00DA3537 /* ViewController.swift in Sources */,
+				FA14F13F1D99723A00DA3537 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F14B1D99723A00DA3537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA14F1541D99723A00DA3537 /* WatchReusablePagingExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F1561D99723A00DA3537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA14F15F1D99723A00DA3537 /* WatchReusablePagingExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA14F16E1D99723A00DA3537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA14F17A1D99723A00DA3537 /* ExtensionDelegate.swift in Sources */,
+				FA14F1921D9974EC00DA3537 /* FoodItem.swift in Sources */,
+				FA14F1781D99723A00DA3537 /* FoodItemInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA14F1511D99723A00DA3537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA14F13A1D99723A00DA3537 /* WatchReusablePagingExample */;
+			targetProxy = FA14F1501D99723A00DA3537 /* PBXContainerItemProxy */;
+		};
+		FA14F15C1D99723A00DA3537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA14F13A1D99723A00DA3537 /* WatchReusablePagingExample */;
+			targetProxy = FA14F15B1D99723A00DA3537 /* PBXContainerItemProxy */;
+		};
+		FA14F1661D99723A00DA3537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA14F1621D99723A00DA3537 /* WatchReusablePagingExample WatchKit App */;
+			targetProxy = FA14F1651D99723A00DA3537 /* PBXContainerItemProxy */;
+		};
+		FA14F1751D99723A00DA3537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA14F1711D99723A00DA3537 /* WatchReusablePagingExample WatchKit Extension */;
+			targetProxy = FA14F1741D99723A00DA3537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA14F1421D99723A00DA3537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA14F1431D99723A00DA3537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA14F1471D99723A00DA3537 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA14F1481D99723A00DA3537 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA14F1681D99723A00DA3537 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA14F1691D99723A00DA3537 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA14F17E1D99723A00DA3537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA14F17F1D99723A00DA3537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA14F1811D99723A00DA3537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				INFOPLIST_FILE = "WatchReusablePagingExample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.WatchReusablePagingExample.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		FA14F1821D99723A00DA3537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				INFOPLIST_FILE = "WatchReusablePagingExample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.WatchReusablePagingExample.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		FA14F1851D99723A00DA3537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				IBSC_MODULE = WatchReusablePagingExample_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchReusablePagingExample WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.WatchReusablePagingExample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		FA14F1861D99723A00DA3537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				IBSC_MODULE = WatchReusablePagingExample_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchReusablePagingExample WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.WatchReusablePagingExample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		FA14F1891D99723A00DA3537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				INFOPLIST_FILE = WatchReusablePagingExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.WatchReusablePagingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA14F18A1D99723A00DA3537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				INFOPLIST_FILE = WatchReusablePagingExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.WatchReusablePagingExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA14F18C1D99723A00DA3537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				INFOPLIST_FILE = WatchReusablePagingExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.WatchReusablePagingExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchReusablePagingExample.app/WatchReusablePagingExample";
+			};
+			name = Debug;
+		};
+		FA14F18D1D99723A00DA3537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				INFOPLIST_FILE = WatchReusablePagingExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.WatchReusablePagingExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchReusablePagingExample.app/WatchReusablePagingExample";
+			};
+			name = Release;
+		};
+		FA14F18F1D99723A00DA3537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				INFOPLIST_FILE = WatchReusablePagingExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.WatchReusablePagingExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WatchReusablePagingExample;
+			};
+			name = Debug;
+		};
+		FA14F1901D99723A00DA3537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				INFOPLIST_FILE = WatchReusablePagingExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.WatchReusablePagingExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WatchReusablePagingExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA14F1361D99723900DA3537 /* Build configuration list for PBXProject "WatchReusablePagingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA14F17E1D99723A00DA3537 /* Debug */,
+				FA14F17F1D99723A00DA3537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA14F1801D99723A00DA3537 /* Build configuration list for PBXNativeTarget "WatchReusablePagingExample WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA14F1811D99723A00DA3537 /* Debug */,
+				FA14F1821D99723A00DA3537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA14F1841D99723A00DA3537 /* Build configuration list for PBXNativeTarget "WatchReusablePagingExample WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA14F1851D99723A00DA3537 /* Debug */,
+				FA14F1861D99723A00DA3537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA14F1881D99723A00DA3537 /* Build configuration list for PBXNativeTarget "WatchReusablePagingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA14F1891D99723A00DA3537 /* Debug */,
+				FA14F18A1D99723A00DA3537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA14F18B1D99723A00DA3537 /* Build configuration list for PBXNativeTarget "WatchReusablePagingExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA14F18C1D99723A00DA3537 /* Debug */,
+				FA14F18D1D99723A00DA3537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA14F18E1D99723A00DA3537 /* Build configuration list for PBXNativeTarget "WatchReusablePagingExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA14F18F1D99723A00DA3537 /* Debug */,
+				FA14F1901D99723A00DA3537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA14F1331D99723900DA3537 /* Project object */;
+}

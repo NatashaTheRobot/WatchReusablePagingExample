@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--FoodItem1-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="FoodItem1" id="AgC-eL-Hgc" customClass="FoodItemInterfaceController" customModule="WatchReusablePagingExample_WatchKit_Extension">
+                    <items>
+                        <imageView width="1" height="0.80000000000000004" alignment="left" contentMode="scaleAspectFill" id="MSE-wn-zMT"/>
+                        <label width="1" height="0.20000000000000001" alignment="left" text="Label" textAlignment="center" minimumScaleFactor="0.5" id="B6P-G0-lRi"/>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="MSE-wn-zMT" id="vfY-hu-OhY"/>
+                        <outlet property="label" destination="B6P-G0-lRi" id="p3D-Pl-ef8"/>
+                        <segue destination="wXG-bP-XCY" kind="relationship" relationship="nextPage" id="aZv-a3-AIp"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--FoodItem2-->
+        <scene sceneID="5n5-SF-2ep">
+            <objects>
+                <controller identifier="FoodItem2" id="wXG-bP-XCY" customClass="FoodItemInterfaceController" customModule="WatchReusablePagingExample_WatchKit_Extension">
+                    <items>
+                        <imageView width="1" height="0.80000000000000004" alignment="left" contentMode="scaleAspectFill" id="3b6-do-wVS"/>
+                        <label width="1" height="0.20000000000000001" alignment="left" text="Label" textAlignment="center" minimumScaleFactor="0.5" id="Ddz-27-eri"/>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="3b6-do-wVS" id="6zq-hA-y6F"/>
+                        <outlet property="label" destination="Ddz-27-eri" id="NKI-7n-LQu"/>
+                        <segue destination="vLu-Q4-Xvx" kind="relationship" relationship="nextPage" id="y7m-La-l11"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="290" y="39"/>
+        </scene>
+        <!--FoodItem3-->
+        <scene sceneID="c5G-D1-2Hv">
+            <objects>
+                <controller identifier="FoodItem3" id="vLu-Q4-Xvx" customClass="FoodItemInterfaceController" customModule="WatchReusablePagingExample_WatchKit_Extension">
+                    <items>
+                        <imageView width="1" height="0.80000000000000004" alignment="left" contentMode="scaleAspectFill" id="V2n-xE-abp"/>
+                        <label width="1" height="0.20000000000000001" alignment="left" text="Label" textAlignment="center" minimumScaleFactor="0.5" id="wdh-R9-FgE"/>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="V2n-xE-abp" id="0oH-iM-HkK"/>
+                        <outlet property="label" destination="wdh-R9-FgE" id="8Nn-5T-vXB"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="520" y="42"/>
+        </scene>
+    </scenes>
+</document>
